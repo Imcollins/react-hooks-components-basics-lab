@@ -1,4 +1,3 @@
-
 import React from "react";
 
 function NavBar() {
@@ -17,25 +16,21 @@ function Home() {
   );
 }
 
-function About(){
-  /* write an <About> component here */
-  return(
+{/* write an <About> component here */}
+function About() {
+  return (
     <div id="about">
       <h2>About</h2>
     </div>
-  )
-
+  );
 }
-
 
 function App() {
   return (
     <div>
       <NavBar />
-      {<Home/>}
-      {/* <Home/> */}
-      {<About/>}
-      {/* <About/> */}
+      <Home />
+      <About/>
     </div>
   );
 }
